@@ -1,4 +1,4 @@
-define create_user::create_user($user_name, $user_password, $ssh_public, $ssh_private) {
+define create_user ($user_name, $user_password, $ssh_public, $ssh_private) {
 
 	user { $user_name:
 		ensure           => present,
